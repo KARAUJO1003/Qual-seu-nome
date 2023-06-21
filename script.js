@@ -6,5 +6,7 @@ function pegar() {
     } else {
       alert("Resposta incorreta");
     }
+
+    document.getElementById("input").value = " ";
   }
   
