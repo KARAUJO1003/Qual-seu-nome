@@ -1,6 +1,8 @@
 function pegar(){
 
-    var nome = document.getElementById("#input");
+    let nome = document.getElementById("input").value;
+
+    let display = document.getElementById('tela').innerHTML = "Olá " + nome + "!";
+
     
-    alert(nome)
 }
